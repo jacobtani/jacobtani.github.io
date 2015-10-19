@@ -50,6 +50,7 @@ page "/feed.xml", layout: false
 # page "/path/to/file.html", layout: false
 #
 # With alternative layout
+#page "/tj.html", layout: "/layouts/"
 # page "/path/to/file.html", layout: :otherlayout
 #
 # A path which all have the same layout
@@ -65,12 +66,19 @@ page "/feed.xml", layout: false
 # Helpers
 ###
 
+#make urls without .html
+activate :directory_indexes
+
+# Easier bootstrap navbars
+activate :bootstrap_navbar
+
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# activate :livereload
-
+configure :development do
+ activate :livereload
+end
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
@@ -87,17 +95,25 @@ set :images_dir, 'images'
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+   activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+   activate :minify_javascript
 
   # Enable cache buster
-  # activate :asset_hash
+   activate :asset_hash
 
   # Use relative URLs
-  # activate :relative_assets
+   activate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+end
+
+# This will push to the gh-pages branch of the repo, which will
+# host it on github pages (If this is a github repository)
+
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.build_before = true
 end
