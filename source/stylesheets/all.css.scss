@@ -1,5 +1,19 @@
 @charset "utf-8";
 
+@import "bootstrap-sprockets";
+@import "bootstrap";
+$white: #FFFFFF;
+$black: #000000;
+$teal: #52ada4;
+$pink: #b21972;
+$green: #28a428;
+$orange: #e69756;
+$yellow: #ffc400;
+
+.my-body{
+  padding-top: 90px;
+}
+
 body {
   background: #d4d4d4 url("../images/background.png");
   text-align: center;
@@ -52,4 +66,43 @@ h1 {
   to {
     -webkit-transform: scale(1);
   }
+}
+
+.navbar .nav > li > a {
+  color: $white;
+  font-family: ‘Raleway,HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  border: 3px solid transparent;
+  padding: 9px 15px;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-brand {
+  color: $black;
+}
+
+.navbar {
+  border-radius: 0px !important;
+  background-color: $pink !important;
+  font-size: 16px;
+  font-family: "futura-pt",sans-serif;
+  margin-bottom: 40px;
+  border-bottom: 0px;
+  .container-fluid {
+    padding-left: 11%;
+  }
+}
+
+.navbar-nav > li{
+  margin-left:1px;
+  margin-right:1px;
+  text-align: center;
+  padding: 5px 20px 30px 20px;
+  height: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+  display: block;
 }

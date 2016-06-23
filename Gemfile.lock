@@ -168,6 +168,3 @@ DEPENDENCIES
   middleman-bootstrap-navbar
   middleman-deploy
   middleman-livereload
-
-BUNDLED WITH
-   1.10.4
