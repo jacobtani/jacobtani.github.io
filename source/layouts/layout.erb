@@ -6,7 +6,7 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Tania's App" %></title>
+    <title><%= current_page.data.title || "Tania Jacob" %></title>
 
     <%= stylesheet_link_tag "normalize", "all" %>
     <%= javascript_include_tag  "all" %>
@@ -28,7 +28,8 @@
           <ul class="nav navbar-nav foo" id="menu">
             <li class="active"><a href="/">Home</a></li>
             <li><a href="#about">About </a></li>
-            <li><a href="#current_projects">Current Projects </a></li>
+            <li><a href="#work_rails_projects">Work Projects </a></li>
+            <li><a href="#personal_rails_projects">Personal Projects </a></li>
             <li><a href="#my_interests">Interests </a></li>
             <li><a href="#education">Education </a></li>
             <li>
@@ -41,72 +42,233 @@
         </div>
       </div>
     </nav>
-
+    <section id= "tj">
+      <h2> Tania Jacob </h1>
+    </section>
+    
     <section id= "about">
       <div class = "row">
-        <div class = "col-md-4">
-          <img src = "/images/Tania.png" alt= "Tania" height="180" width="220"/> 
-        </div>
-        <div class = "col-md-8">
-           <p> I am a 24 year old Developer working at Datacom Systems Wellington. I describe myself as a motivated individual who is keen to learn new skills and grasps any opportunity that is presented. I have worked in both waterfall (Java) and agile (Ruby on Rails) environments as well as in a DevOps team. At this stage I want to develop my expertise in Ruby on Rails. This is because working in the field has been the highlight of my career. Presently I am working on multiple Ruby on Rails applications in my spare time to build my skill set and grow my confidence in the domain. The applications I am working on in my spare time can be found using the following links for your reference:
-https://github.com/jacobtani/TeachToolP - Online tuition centre for relatives written in Rails (WIP)
-https://github.com/jacobtani/regieme - Wedding website written in Rails (WIP)
-https://github.com/jacobtani/financedata_extractor_tj - Yahoo Finance Share Stock Data Extractor written in Rails over a period of three weeks </p>
+        <div class = "col-md-12">
+          <p> I am a 24 year old Developer working at Datacom Systems Wellington. I describe myself as a motivated individual who is keen to learn new skills and grasps any opportunity that is presented. I have worked in both waterfall (Java) and agile (Ruby on Rails) environments as well as in a DevOps team. At this stage I want to develop my expertise in Ruby on Rails. This is because working in the field has been the highlight of my career. Presently I am working on multiple Ruby on Rails applications in my spare time to build my skill set and grow my confidence in the domain.</p>
         </div>
       </div>
     </section>
 
-      <section id = "skills">
-        <h2> My Skills </h2>
-        <table class = "table table-striped">
-          <tr>
-            <th> Column 1</th>
-            <th> Column 2 </th>
-            <th> Column 3 </th>
-          </tr>
-          <tr>
-            <td> Row 1 </td>
-            <td> Row 1a </td>
-            <td> Row 1b </td>
-          </tr>
-          <tr>
-            <td> Row 2 </td>
-            <td> Row 2a </td>
-            <td> Row 2b </td>
-          </tr>
-        </table>
-      </section>
+    <section id = "skills">
+      <h2> Key Technologies </h2>
+      <table class = "table table-bordered">
+        <tr>
+          <th class='about'> Technology</th>
+          <th class='experience'> Level of Experience </th>
+          <th class='rating'> Rating </th>
+          <th class='year'> Last Year Used </th>
+        </tr>
+        <tr>
+          <td> Ansible </td>
+          <td> 5 months </td>
+          <td> 5 </td>
+          <td> 2016 </td>
+        </tr>
+        <tr>
+          <td> CSS </td>
+          <td> 1/2 year </td>
+          <td> 4 </td>
+          <td> 2016 </td>
+        </tr>
+        <tr>
+          <td> HTML </td>
+          <td> 4 years </td>
+          <td> 6 </td>
+          <td> 2016 </td>
+        </tr>
+        <tr>
+          <td> Java </td>
+          <td> 1.5 years </td>
+          <td> 5 </td>
+          <td> 2015 </td>
+        </tr>
 
+        <tr>
+          <td> Javascript </td>
+          <td> 1 year </td>
+          <td> 4 </td>
+          <td> 2016 </td>
+        </tr>
 
-      <section id ="current_projects">          
-        <h2> Current Projects </h2>
-        <div class = "row">
-          <div class = "col-md-4">
-            <h4> Get a Room </h4>
-          </div>
-          <div class = "col-md-8">
-            <p> Meeting Room booking system which communicates to Exchange Web Services. Written in Ruby on Rails </p>
-          </div>
+        <tr>
+          <td> Oracle WebLogic Server </td>
+          <td> 1.5 years </td>
+          <td> 6 </td>
+          <td> 2015 </td>
+        </tr>
+        <tr>
+          <td> PowerDesigner 15 </td>
+          <td> 3 months </td>
+          <td> 5 </td>
+          <td> 2012 </td>
+        </tr>
+
+        <tr>
+          <td> Sparx Enterprise Architect </td>
+          <td> 4 years </td>
+          <td> 7 </td>
+          <td> 2015 </td>
+        </tr>
+        <tr>
+          <td> Spring MVC </td>
+          <td> 1/2 year </td>
+          <td> 4 </td>
+          <td> 2014 </td>
+        </tr>
+
+        <tr>
+          <td> SQL/PostgreSQL </td>
+          <td> 3 years </td>
+          <td> 6 </td>
+          <td> 2016 </td>
+        </tr>
+      </table>
+    </section>
+
+    <section id='tools'>
+      <h2> Key Tools </h2>
+      <table class = "table table-bordered">
+        <tr>
+          <th class='about'> Tool</th>
+          <th class='experience'> Level of Experience </th>
+          <th class='rating'> Rating </th>
+          <th class='year'> Last Year Used </th>
+        </tr>
+        <tr>
+          <td> Ant </td>
+          <td> 1.5 years </td>
+          <td> 5 </td>
+          <td> 2015 </td>
+        </tr>
+        <tr>
+          <td> Apache Tomcat </td>
+          <td> 2.5 years </td>
+          <td> 6 </td>
+          <td> 2013 </td>
+        </tr>
+        <tr>
+          <td> Atlassian JIRA </td>
+          <td> 2 years </td>
+          <td> 7 </td>
+          <td> 2015 </td>
+        </tr>
+        <tr>
+          <td> Git </td>
+          <td> 2 years </td>
+          <td> 7 </td>
+          <td> 2016 </td>
+        </tr>
+        <tr>
+          <td> install4j </td>
+          <td> 1/2 year </td>
+          <td> 8 </td>
+          <td> 2015 </td>
+        </tr>
+        <tr>
+          <td> SoapUI </td>
+          <td> 1/2 year </td>
+          <td> 6 </td>
+          <td> 2015 </td>
+        </tr>
+        <tr>
+          <td> SVN - Tortoise SVN Client </td>
+          <td> 1.5 years </td>
+          <td> 6 </td>
+          <td> 2015 </td>
+        </tr>
+        <tr>
+          <td> Trello </td>
+          <td> 1 year </td>
+          <td> 7 </td>
+          <td> 2016 </td>
+        </tr>
+        <tr>
+          <td> Waffle </td>
+          <td> 1 year </td>
+          <td> 7 </td>
+          <td> 2016 </td>
+        </tr>
+      </table>
+    </section>
+
+    <section id ="work_rails_projects">          
+      <h2> Work Projects </h2>
+      <div class = "row">
+        <div class = "col-md-6">
+          <img src = "/images/junction.png" alt= "junction" height="180" width="300"/>           
+          <h4> Junction </h4>
+          <span> Meeting Room booking system communicating to Exchange Web Services written in RoR. </span> 
         </div>
-        <div class = "row" >
-          <div class = "col-md-4">
-            <h4> Datacom Dashboard </h4>
-          </div>
-          <div class = "col-md-8">
-            <p> Visualises the data from Datacom timesheet system to show the invoices, timesheets, health reports and status reports for each project. It has two different views based on if the application is client facing or not. </p> 
-          </div>
+        <div class = "col-md-6">
+          <img src = "/images/dashboard.png" alt= "dashboard" height="180" width="300"/>           
+          <h4> Datacom Dashboard </h4>
+          <span> A visualisation of the Datacom timesheet system written in RoR. </span> 
         </div>
-    
+      </div>
+    </section>
+    <section id='personal_rails_projects'> 
+      <h2> Personal Projects </h2>
+      <div class = "row">
+        <div class = "col-md-4">
+          <img src = "/images/teachtool.png" alt= "teachtool" height="180" width="300"/>           
+          <h4><b><%= link_to 'TeachTool', 'https://teachtool.herokuapp.com' %></b></h4>
+          <span> Online tuition centre for Maths and English written in RoR. </span> 
+        </div>
+        <div class = "col-md-4">
+          <img src = "/images/yahoofinance.png" alt= "Yahoo Finance" height="180" width="300"/>           
+          <h4><b><%= link_to 'Yahoo Finance Share Stock Data Extractor', 'https://github.com/jacobtani/financedata_extractor_tj' %></b></h4>
+          <span> Extracts data from Yahoo Finance of stocks you are subscribed to. Written in RoR over a time frame of 3 weeks after work.</span> 
+        </div>
+        <div class = "col-md-4">
+          <img src = "/images/wedding.png" alt= "wedding" height="180" width="300"/>           
+          <h4><b><%= link_to 'Wedding', 'https://iwandtj.herokuapp.com' %></b></h4>
+          <span> Online personal wedding website written in RoR </span> 
+        </div>
+      </div>
     </section>
     
     <section id = "my_interests">
       <h2> Interests </h2>
-      <p> Other than being a developer, I have a wide range of hobbies I enjoy doing. These include baking and exploring cities. I describe myself as being a rather adventurous person </p>
+      <p> Outside of my development time, one thing I love to do is make decorative themed cakes. Here is a show case of my talent: </p>
+      <div class = "row">
+        <div class = "col-md-4">
+          <img src = "/images/surf.jpg" alt= "surf" height="180" width="220"/>           
+          <h4><b> Surfing </b></h4>
+        </div>
+        <div class = "col-md-4">
+          <img src = "/images/foos.jpg" alt= "foosball" height="180" width="220"/>           
+          <h4><b> Foosball </b></h4>
+        </div>
+        <div class = "col-md-4">
+          <img src = "/images/pants.jpg" alt= "pants" height="180" width="220"/>           
+          <h4><b> Pants </b></h4>
+        </div>
+      </div>
+      <div class='row'>
+        <div class = "col-md-4">
+          <img src = "/images/red.jpg" alt= "red" height="180" width="220"/>           
+          <h4><b> Red Square </b></h4>
+        </div>
+        <div class = "col-md-4">
+          <img src = "/images/lego.jpg" alt= "lego" height="180" width="220"/>           
+          <h4><b> Lego </b></h4>
+        </div>
+        <div class = "col-md-4">
+          <img src = "/images/tour.jpg" alt= "tour" height="180" width="220"/>           
+          <h4><b> Tour de France </b></h4>
+        </div>
+      </div>
+      <p> I also enjoy Skiing in the Winter and boogie boarding in the Summer. In addition, I like exploring the outdoors with my fiance. </p>
     </section>
 
     <section id = "education">
-      <h2> Education </h2>
-      <table class = "table table-striped">
+      <h2> Education & Professional Development </h2>
+      <table class = "table table-bordered">
         <tr>
           <th> Name </th>
           <th> Description </th>
@@ -143,10 +305,26 @@ https://github.com/jacobtani/financedata_extractor_tj - Yahoo Finance Share Stoc
           <td> Datacom Systems Ltd </td>
           <td> September 7 2015 </td>
         </tr>
+        <tr>
+          <td> Kiwicon 9 </td>
+          <td> Wellington's annual hackathon </td>
+          <td> Datacom Systems Ltd </td>
+          <td> December 10-11 2015 </td>
+        </tr>
       </table>    
     </section>
+    <section id='contact'>
+      <h2> Contact Tania </h2>
+      <div class = 'row'>
+        <div class = 'col-md-4' style="display:inline;">
+          <img src = "/images/Tania.png" alt= "lego" height="180" width="220"/>     
+        </div>
+        <div class='col-md-3 my-contact-text' style="display:inline;">
+          <p><b>Email:</b> tanzjacob@gmail.com </p>
+          <p><b>GitHub:</b> github.com/jacobtani </p>
+          <p><b>Phone:</b> 027 694 9524 </p>
+        </div>
+      </div>
+    </section>
 
-    <footer class = "myfooter">
-    <p> Made by Tania </p>
-    </footer>
   </body>
