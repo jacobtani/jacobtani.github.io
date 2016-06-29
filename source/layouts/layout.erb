@@ -33,29 +33,33 @@
             <li><a href="#my_interests">Interests </a></li>
             <li><a href="#education">Education </a></li>
             <li>
-              <a href="/contact">
+              <a href="#contact">
                 <span class='glyphicon glyphicon-hand-right'></span>
-                Contact Tania!
+                Contact
               </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <section id= "tj">
-      <h2> Tania Jacob </h1>
-    </section>
-    
     <section id= "about">
+      <h2 class='my-name'> Tania Jacob </h1>
+      <div class="hr"></div>
       <div class = "row">
         <div class = "col-md-12">
-          <p> I am a 24 year old Developer working at Datacom Systems Wellington. I describe myself as a motivated individual who is keen to learn new skills and grasps any opportunity that is presented. I have worked in both waterfall (Java) and agile (Ruby on Rails) environments as well as in a DevOps team. At this stage I want to develop my expertise in Ruby on Rails. This is because working in the field has been the highlight of my career. Presently I am working on multiple Ruby on Rails applications in my spare time to build my skill set and grow my confidence in the domain.</p>
+          <p class='description'> I am a 24 year old Developer currently working at Datacom Systems Wellington until 29 July 2016. I have been with the company for the past four years and have worked on a variety of projects.
+          In the Java space, I worked on the Reserve Bank's real time gross settlement system - ESAS-NZClear in a waterfall team. In this project I worked on defects, testing, producing technical documentation, upgrading WebLogic and creating new application installers. In addition I got direct client communication with RBNZ's clients overseas to help them move to use the new installers. </p>
+          <p class='description'> I spent 4 months in a small agile Ruby on Rails team. My first task was to convert the tests for the Summer of Tech application from RSpec to MiniTest. Following this I worked on the Junction application described below. My focus was on working with the basic MVC framework of the application and also working with the REST API. I also got the chance to work on a Datacom Dashboard and change components based on client feedback. </p>
+          <p class='description'> My last five months at the company was working in a DevOps team using Ansible. This group focused on automating the provisioning and building of servers with the correct software on each. I developed a variety of roles and built my Linux skills. </p>
+          <p class='description'> In my previous internship at Tertiary Education Commission (TEC) I became the SME in Sparx Enterprise Architect for 9.2. I prepared a training manual and trained staff at TEC and Datacom. </p>
+          <p class='description'> I describe myself as a motivated individual who is keen to learn new skills and grasps any opportunity that is presented. I have worked in both waterfall (Java) and agile (Ruby on Rails) environments as well as in a DevOps team. I will be working in a Ruby on Rails team at Abletech from August. I chose this field as working in the field has been the highlight of my career. Presently I am working on multiple Ruby on Rails applications in my spare time to build my skill set and grow my confidence in the domain.</p>
         </div>
       </div>
     </section>
 
     <section id = "skills">
       <h2> Key Technologies </h2>
+      <div class="hr"></div>
       <table class = "table table-bordered">
         <tr>
           <th class='about'> Technology</th>
@@ -132,6 +136,7 @@
 
     <section id='tools'>
       <h2> Key Tools </h2>
+      <div class="hr"></div>
       <table class = "table table-bordered">
         <tr>
           <th class='about'> Tool</th>
@@ -198,6 +203,7 @@
 
     <section id ="work_rails_projects">          
       <h2> Work Projects </h2>
+      <div class="hr"></div>
       <div class = "row">
         <div class = "col-md-6">
           <img src = "/images/junction.png" alt= "junction" height="180" width="300"/>           
@@ -213,10 +219,11 @@
     </section>
     <section id='personal_rails_projects'> 
       <h2> Personal Projects </h2>
+      <div class="hr"></div>
       <div class = "row">
         <div class = "col-md-4">
           <img src = "/images/teachtool.png" alt= "teachtool" height="180" width="300"/>           
-          <h4><b><%= link_to 'TeachTool', 'https://teachtool.herokuapp.com' %></b></h4>
+          <h4><%= link_to 'TeachTool', 'https://teachtool.herokuapp.com' %></h4>
           <span> Online tuition centre for Maths and English written in RoR. </span> 
         </div>
         <div class = "col-md-4">
@@ -234,7 +241,8 @@
     
     <section id = "my_interests">
       <h2> Interests </h2>
-      <p> Outside of my development time, one thing I love to do is make decorative themed cakes. Here is a show case of my talent: </p>
+      <div class="hr"></div>
+      <p> Outside of my development time, I love baking. In particular I fancy making decorative birthday cakes. Here is a show case of my talent in order of creation: </p>
       <div class = "row">
         <div class = "col-md-4">
           <img src = "/images/surf.jpg" alt= "surf" height="180" width="220"/>           
@@ -263,11 +271,12 @@
           <h4><b> Tour de France </b></h4>
         </div>
       </div>
-      <p> I also enjoy Skiing in the Winter and boogie boarding in the Summer. In addition, I like exploring the outdoors with my fiance. </p>
+      <p> In the Summer I enjoy boogie boarding and exploring the outdoors with my fiance. Whilst in the Winter I love my annual Ski trip. In addition I love spending time with family and friends. </p>
     </section>
 
     <section id = "education">
       <h2> Education & Professional Development </h2>
+      <div class="hr"></div>
       <table class = "table table-bordered">
         <tr>
           <th> Name </th>
@@ -308,21 +317,20 @@
         <tr>
           <td> Kiwicon 9 </td>
           <td> Wellington's annual hackathon </td>
-          <td> Datacom Systems Ltd </td>
+          <td> St James Theatre </td>
           <td> December 10-11 2015 </td>
         </tr>
       </table>    
     </section>
     <section id='contact'>
       <h2> Contact Tania </h2>
+      <div class="hr"></div>
       <div class = 'row'>
-        <div class = 'col-md-4' style="display:inline;">
-          <img src = "/images/Tania.png" alt= "lego" height="180" width="220"/>     
+        <div class = 'col-md-4 tania-image'>
+          <img src = "/images/tania.jpg" alt= "lego" height="190" width="220"/>     
         </div>
-        <div class='col-md-3 my-contact-text' style="display:inline;">
-          <p><b>Email:</b> tanzjacob@gmail.com </p>
-          <p><b>GitHub:</b> github.com/jacobtani </p>
-          <p><b>Phone:</b> 027 694 9524 </p>
+        <div class='col-md-4 my-contact-text'>
+          <span>Email: tanzjacob@gmail.com</span><span>Phone: 027 694 9524</span><span>GitHub: https://github.com/jacobtani</span>
         </div>
       </div>
     </section>

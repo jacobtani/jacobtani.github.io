@@ -13,22 +13,19 @@ $orange: #e69756;
 $yellow: #ffc400;
 $lightpink: #FFB6C1;
 $blue: #b6c1ff;
-$one: #ffb6c1;
-$two: #ffd0b6;
-$three: #ffb6e6;
+$gray: #ECECEC;
+$darker-green-blue: #BDD8DA;
+$lighter-green-blue: #DFEFF0;
 
 .my-body{
   padding-top: 90px;
+  background-color: $gray;
 }
 
 body {
   text-align: center;
   font-family: "Avenir", sans-serif; 
   font-size: 18px;
-}
-
-h2 {
-  font-size: 36px;
 }
 
 p {
@@ -94,7 +91,7 @@ th {
 
 .navbar {
   border-radius: 0px !important;
-  background-color: $white !important;
+  background-color: $gray !important;
   font-size: 16px;
   font-family: "futura-pt",sans-serif;
   margin-bottom: 40px;
@@ -133,38 +130,75 @@ th.about {
 h2 {
   color: $pink;
   font-size: 40px;
+  padding-top:20px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+#about {
+  background-color: $darker-green-blue;
 }
 
 #skills{
-  background-color: $one;
+  background-color: $gray;
 }
 
 #tools{
-  background-color: $two;
+  background-color: $lighter-green-blue;
 }
 
 #work_rails_projects{
-  background-color: $three;
+  background-color: $gray;
 }
 
 #personal_rails_projects{
-  background-color: $one;
+  background-color: $darker-green-blue;
 }
 
 #my_interests{
-  background-color: $white;
+  background-color: $gray;
 }
 
 #education{
-  background-color: $two;
+  background-color: $darker-green-blue;
 }
 
 #contact{
-  background-color: $three;
+  background-color: $gray;
 }
 
 .my-contact-text{
   vertical-align: middle;
   font-size: 25px;
-  display:inline-block; 
+}
+
+.description {
+  font-size: 25px;
+}
+
+.my-name {
+  font-size: 80px;
+  letter-spacing: 2px;
+
+}
+
+.hr {
+  display: block;
+  height: 40px;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  background-position: center;
+  background-image: url('../images/divider.png');
+}
+
+span {
+  display: block;
+  text-align: left;
+  line-height:50px;
+}
+
+.tania-image{
+  vertical-align: text-top;
 }
