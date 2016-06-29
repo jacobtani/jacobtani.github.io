@@ -123,7 +123,7 @@ th.experience, th.year, th.rating {
   text-align: center;
 }
 th.about {
-  width: 55%; /* Not necessary, since only 70% width remains */
+  width: 55%;
   text-align: center;
 }
 
@@ -131,6 +131,7 @@ h2 {
   color: $pink;
   font-size: 40px;
   padding-top:20px;
+  text-transform: uppercase;
 }
 
 h4 {
