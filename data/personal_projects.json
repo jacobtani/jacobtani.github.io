@@ -7,7 +7,7 @@
   },
   {
           "image": "yahoofinance.png",
-          "title": "Yahoo Finance Share Stock Data Extractor (ROR)",
+          "title": "Yahoo Finance Share Stock Data Extractor (RoR)",
           "url": "https://github.com/jacobtani/financedata_extractor_tj",
           "description": "Extracts data from Yahoo Finance of stocks you are subscribed to. Written over 3 weeks."
   },
