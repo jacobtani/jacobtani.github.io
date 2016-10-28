@@ -2,20 +2,12 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "variables";
+@import "formatting";
 @import "fonts";
-
-$white: #FFFFFF;
-$black: #000000;
-$teal: #52ada4;
-$pink: #b21972;
-$green: #c1ffb6;
-$orange: #e69756;
-$yellow: #ffc400;
-$lightpink: #FFB6C1;
-$blue: #b6c1ff;
-$gray: #ECECEC;
-$darker-green-blue: #BDD8DA;
-$lighter-green-blue: #DFEFF0;
+@import "navbar";
+@import "headings";
+@import "tables";
 
 .my-body{
   padding-top: 90px;
@@ -24,187 +16,10 @@ $lighter-green-blue: #DFEFF0;
 
 body {
   text-align: center;
-  font-family: "Avenir", sans-serif; 
+  font-family: "Avenir", sans-serif;
   font-size: 18px;
 }
 
-p {
-
-}
-
-th {
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center;
-}
-.doc {
-  font-size: 14px;
-  margin: 0; }
-  .doc:before,
-  .doc:after {
-    opacity: .2;
-    padding: 6px;
-    font-style: normal;
-    position: relative;
-    content: "•"; }
-  .doc a {
-    color: rgba(0, 0, 0, 0.3); }
-    .doc a:hover {
-      color: #666; }
-
-.welcome {
-  -webkit-animation-name: welcome;
-  -webkit-animation-duration: .9s; }
-
-@-webkit-keyframes welcome {
-  from {
-    -webkit-transform: scale(0);
-    opacity: 0;
-  }
-  50% {
-   -webkit-transform: scale(0);
-   opacity: 0;
-  }
-  82.5% {
-    -webkit-transform: scale(1.03);
-    -webkit-animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  to {
-    -webkit-transform: scale(1);
-  }
-}
-
-.navbar .nav > li > a {
-  color: $pink;
-  font-family: ‘Raleway,HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  border: 3px solid transparent;
-  padding: 9px 15px;
-  font-size: 1em;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.navbar-default .navbar-brand {
-  color: $black;
-}
-
-.navbar {
-  border-radius: 0px !important;
-  background-color: $gray !important;
-  font-size: 16px;
-  font-family: "futura-pt",sans-serif;
-  margin-bottom: 40px;
-  border-bottom: 0px;
-  .container-fluid {
-    padding-left: 11%;
-  }
-}
-
-.navbar-nav > li{
-  margin-left:1px;
-  margin-right:1px;
-  text-align: center;
-  padding: 5px 20px 30px 20px;
-  height: 30px;
-  font-weight: 900;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 12px;
-  display: block;
-}
-
-table {
-  width: 100%;
-  border: 2px solid $black;
-}
-th.experience, th.year, th.rating {
-  width: 15%;
-  text-align: center;
-}
-th.about {
-  width: 55%;
-  text-align: center;
-}
-
-h2 {
-  color: $pink;
-  font-size: 40px;
-  padding-top:20px;
-  text-transform: uppercase;
-}
-
-h4 {
-  font-weight: bold;
-}
-
-#about {
-  background-color: $darker-green-blue;
-}
-
-#skills{
-  background-color: $gray;
-}
-
-#tools{
-  background-color: $lighter-green-blue;
-}
-
-#work_rails_projects{
-  background-color: $gray;
-}
-
-#personal_rails_projects{
-  background-color: $darker-green-blue;
-}
-
-#my_interests{
-  background-color: $gray;
-}
-
-#education{
-  background-color: $darker-green-blue;
-}
-
-#contact{
-  background-color: $gray;
-}
-
-.my-contact-text{
-  vertical-align: middle;
-  font-size: 25px;
-}
-
-.description {
-  font-size: 25px;
-}
-
-.my-name {
-  font-size: 80px;
-  letter-spacing: 2px;
-
-}
-
-.hr {
-  display: block;
-  height: 40px;
-  background-repeat: no-repeat;
-  margin-bottom: 30px;
-  background-position: center;
-  background-image: url('../images/divider.png');
-}
-
-span {
-  display: block;
-  text-align: left;
-  line-height:30px;
-}
-
-.tania-image{
+.tania-image {
   vertical-align: text-top;
-}
-
-.my-span {
-  text-align: center;
-  text-align: middle;
 }

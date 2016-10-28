@@ -1,0 +1,12 @@
+table {
+  width: 100%;
+  border: 2px solid $black;
+}
+th.experience, th.year, th.rating {
+  width: 15%;
+  text-align: center;
+}
+th.about {
+  width: 55%;
+  text-align: center;
+}

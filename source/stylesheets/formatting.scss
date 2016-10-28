@@ -1,0 +1,42 @@
+span {
+  display: block;
+  text-align: left;
+  line-height:30px;
+}
+
+#about_pg {
+  background-color: $darker-green-blue;
+  h2 { font-size: 80px; letter-spacing: 2px; }
+  p { font-size: 25px; }
+}
+
+#skills_pg {
+  background-color: $blue;
+}
+
+#tools_pg {
+  background-color: $lighter-green-blue;
+}
+
+#work_rails_projects_pg {
+  background-color: $gray;
+  span { text-align: center; text-align: middle; }
+}
+
+#personal_rails_projects_pg {
+  background-color: $darker-green-blue;
+  span { text-align: center; text-align: middle; }
+}
+
+#my_interests_pg {
+  background-color: $gray;
+}
+
+#education_pg {
+  background-color: $darker-green-blue;
+}
+
+#contact_pg {
+  background-color: $gray;
+  h2 {   vertical-align: middle; font-size: 25px; }
+}

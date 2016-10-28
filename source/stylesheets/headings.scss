@@ -1,0 +1,19 @@
+h2 {
+  color: $pink;
+  font-size: 40px;
+  padding-top:20px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+hr {
+  display: block;
+  height: 40px;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  background-position: center;
+  background-image: url('../images/divider.png');
+}
