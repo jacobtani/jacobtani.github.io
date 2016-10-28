@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "variables";
@@ -9,15 +8,15 @@
 @import "headings";
 @import "tables";
 
-.my-body{
-  padding-top: 90px;
-  background-color: $gray;
-}
-
 body {
   text-align: center;
   font-family: "Avenir", sans-serif;
   font-size: 18px;
+}
+
+.my-body {
+  padding-top: 90px;
+  background-color: $gray;
 }
 
 .tania-image {
