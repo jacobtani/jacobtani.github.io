@@ -1,0 +1,26 @@
+[
+  {
+          "image": "surf.jpg",
+          "theme": "Surfing"
+  },
+  {
+          "image": "foos.jpg",
+          "theme": "Foosball"
+  },
+  {
+          "image": "pants.jpg",
+          "theme": "Pants"
+  },
+  {
+          "image": "red.jpg",
+          "theme": "Red Square"
+  },
+  {
+          "image": "lego.jpg",
+          "theme": "Lego"
+  },
+  {
+          "image": "tour.jpg",
+          "theme": "Tour de France"
+  }
+]

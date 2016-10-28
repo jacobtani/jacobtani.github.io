@@ -1,0 +1,26 @@
+[
+  {
+          "image": "teachtool.png",
+          "title": "TeachTool (RoR)",
+          "url": "https://teachtool.herokuapp.com",
+          "description": "Online tuition centre for Maths and English."
+  },
+  {
+          "image": "yahoofinance.png",
+          "title": "Yahoo Finance Share Stock Data Extractor (ROR)",
+          "url": "https://github.com/jacobtani/financedata_extractor_tj",
+          "description": "Extracts data from Yahoo Finance of stocks you are subscribed to. Written over 3 weeks."
+  },
+  {
+          "image": "wedding.png",
+          "title": "Wedding (RoR)",
+          "url": "www.iainandtj.kiwi",
+          "description": "Personal wedding website"
+  },
+  {
+          "image": "engagedencounter.png",
+          "title": "Wellington Catholic Engaged Encounter (RoR)",
+          "url": "https://engagedencounter.herokuapp.com",
+          "description": "Catholic Marriage Preparation Course in Wellington"
+  }
+]

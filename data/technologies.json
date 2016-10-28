@@ -1,0 +1,68 @@
+[
+  {
+          "tech": "Ansible",
+          "experience_level": "5 Months",
+          "rating":"5",
+          "year_last_used": "2016"
+  },
+  {
+          "tech": "CSS",
+          "experience_level": "1 year",
+          "rating":"4",
+          "year_last_used": "2016"
+  },
+  {
+          "tech": "HTML",
+          "experience_level": "4 years",
+          "rating":"6",
+          "year_last_used": "2016"
+  },
+  {
+          "tech": "Java",
+          "experience_level": "1.5 years",
+          "rating":"5",
+          "year_last_used": "2015"
+  },
+  {
+          "tech": "Javascript",
+          "experience_level": "1 year",
+          "rating":"4",
+          "year_last_used": "2016"
+  },
+  {
+          "tech": "Oracle WebLogic Server",
+          "experience_level": "1.5 years",
+          "rating":"6",
+          "year_last_used": "2015"
+  },
+  {
+          "tech": "PowerDesigner 15",
+          "experience_level": "3 months",
+          "rating":"5",
+          "year_last_used": "2012"
+  },
+  {
+          "tech": "Ruby on Rails",
+          "experience_level": "1 year",
+          "rating":"5",
+          "year_last_used": "2016"
+  },
+  {
+          "tech": "Sparx Enterprise Architect",
+          "experience_level": "4 years",
+          "rating":"7",
+          "year_last_used": "2015"
+  },
+  {
+          "tech": "Spring MVC",
+          "experience_level": "1/2 year",
+          "rating":"4",
+          "year_last_used": "2014"
+  },
+  {
+          "tech": "SQL/PostgreSQL",
+          "experience_level": "3 years",
+          "rating":"6",
+          "year_last_used": "2016"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+          "image": "junction.png",
+          "title": "Get a Room - Datacom (RoR)",
+          "company": "Datacom",
+          "description": "Meeting Room booking system communicating to Exchange Web Services."
+  },
+  {
+          "image": "dashboard.png",
+          "title": "Datacom Dashboard - RoR",
+          "company": "Datacom",
+          "description": "A visualisation of the Datacom timesheet system."
+  },
+  {
+          "image": "af.png",
+          "title": "AddressFinder - RoR",
+          "company": "Abletech",
+          "description": "Address and location lookup service"
+  },
+  {
+          "image": "connector.png",
+          "title": "Connector - RoR",
+          "company": "Abletech",
+          "description": "Posts data from files retrieved from Royal Bank of Canada to Sharesight"
+  }
+]

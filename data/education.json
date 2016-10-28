@@ -1,0 +1,50 @@
+[
+  {
+          "name": "Bachelor of Engineering in Software Engineering with First Class Honours",
+          "description": "Undergraduate Degree",
+          "location":"Victoria University of Wellington",
+          "timing": "2010-2014"
+  },
+  {
+          "name": "Agile Development",
+          "description": "Learn about basics of agile",
+          "location":"Bank of New Zealand",
+          "timing": "2012"
+  },
+  {
+          "name": "Rails Girls",
+          "description": "Attendee of a weekend introductory course to Ruby on Rails",
+          "location":"Enspiral Dev Academy",
+          "timing": "May 2015"
+  },
+  {
+          "name": "Security 101",
+          "description": "A theory and practical based training on security with web development",
+          "location":"SafeStack - Tom Eastman",
+          "timing": "10 August 2015"
+  },
+  {
+          "name": "Teacher Education Initiative - CSR Python",
+          "description": "Assist secondary school teachers learning introductory Python Programming at a two day course at Datacom",
+          "location":"Datacom Systems Ltd",
+          "timing": "7 Sept 2015 and 14 July 2016 "
+  },
+  {
+          "name": "Kiwicon 9",
+          "description": "NZ's annual security conference",
+          "location":"St James Theatre",
+          "timing": "10 - 11 December 2015"
+  },
+  {
+          "name": "Rails Girls",
+          "description": "Voluntarily coaching those with no IT experience about Ruby on Rails",
+          "location":"Enspiral Dev Academy",
+          "timing": "28-29 August"
+  },
+  {
+          "name": "Security Course",
+          "description": "Course run for new Abletech and Loyalty employees",
+          "location":"Aura Information Security",
+          "timing": "12-13 September 2016"
+  }
+]
